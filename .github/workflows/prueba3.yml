@@ -27,7 +27,7 @@ jobs:
 
     # 4. Ejecutar el script extractor
     - name: Run Druni Scraper script
-      run: python scraper.py
+      run: python pruebadruni.py
 
     # 5. Guardar el archivo .csv generado en tu repositorio
     - name: Commit and push changes
