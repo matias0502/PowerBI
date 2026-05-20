@@ -2,7 +2,10 @@ name: Druni Perfumes Scraper
 
 on:
   workflow_dispatch:
-    # Esto permite que el script se ejecute ÚNICAMENTE cuando tú hagas clic de forma manual
+
+# ESTO SOLUCIONA EL ERROR 403: Le da permiso explícito al bot para escribir en el repositorio
+permissions:
+  contents: write
 
 jobs:
   run-scraper:
